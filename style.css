@@ -1,0 +1,69 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: #2B0945;
+  color: white;
+}
+
+/* Alinha os itens do navbar à direita */
+.navbar-nav.ml-auto {
+  margin-left: auto !important;
+}
+
+/* Estilo das seções */
+.section {
+  background-color: #2B0945;
+  color: white;
+  text-align: left;
+  padding: 100px 1cm;
+  min-height: 50vh;
+}
+
+#section2 {
+  background-color: #766484;
+  min-height: 70vh;
+}
+
+#section3 {
+  min-height: 70vh;
+}
+
+#section4 {
+  background-color: #766484;
+}
+
+#text {
+  align-items: center;
+  align-self: center;
+  margin-top: 50px;
+}
+
+/* Efeito de sobreposição */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2B0945;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.yellow {
+  color: #FEC260;
+}
+
+.nav-link {
+  text-decoration-color: #FEC260;
+}
+#linke{
+  color: white;
+}
+#linke:hover{
+  color: #FEC260;
+}
